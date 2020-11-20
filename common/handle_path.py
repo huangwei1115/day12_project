@@ -1,0 +1,11 @@
+import os
+BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(BASE_DIR)
+# CASE_DIR=os.path.abspath(os.path.join(os.getcwd(),"../test_data"))
+DATA_DIR=os.path.join(BASE_DIR,"test_data")
+REPORT_DIR=os.path.join(BASE_DIR,"reports")
+COMMON_DIR=os.path.join(BASE_DIR,"common")
+LOG_DIR=os.path.join(BASE_DIR,"logs")
+FUNC_DIR=os.path.join(BASE_DIR,"func")
+CASE_DIR=os.path.join(BASE_DIR,"testcase")
+CONF_DIR=os.path.join(BASE_DIR,"conf")
