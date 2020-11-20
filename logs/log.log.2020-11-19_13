@@ -1,0 +1,175 @@
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值0失败用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户id为空用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为空用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户id不存在用例执行通过
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为负值用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额超出范围用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额3位小数用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为字符串格式用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户名字字符串格式用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值0失败用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户id为空用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为空用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户id不存在用例执行通过
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为负值用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额超出范围用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额3位小数用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为字符串格式用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户名字字符串格式用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值0失败用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户id为空用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为空用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户id不存在用例执行通过
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为负值用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额超出范围用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额3位小数用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为字符串格式用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户名字字符串格式用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值0失败用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户id为空用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为空用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户id不存在用例执行通过
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为负值用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额超出范围用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额3位小数用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为字符串格式用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户名字字符串格式用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值0失败用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户id为空用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为空用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户id不存在用例执行通过
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为负值用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额超出范围用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额3位小数用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为字符串格式用例执行失败
+Starting new HTTP connection (1): 127.0.0.1:8888
+http://127.0.0.1:8888 "POST http://api.lemonban.com/futureloan/member/recharge HTTP/1.1" 200 None
+用户名字字符串格式用例执行失败

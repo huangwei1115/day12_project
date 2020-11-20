@@ -6,8 +6,8 @@
 """
 import json
 import os
-from common.handle_conf import Conf
-from common.handle_path import CONF_DIR,LOG_DIR,DATA_DIR
+from common.handle_conf import conf
+from common.handle_path import DATA_DIR
 from common.handle_excel import Excel
 from common.handle_log import Log
 from common import myddt
@@ -17,7 +17,6 @@ sh=Excel(os.path.join(DATA_DIR,"case.xlsx"),"login")
 sh.open()
 case_data=sh.read_excel()
 log=Log.create_log()
-conf=Conf(os.path.join(CONF_DIR,"conf.ini"))
 @myddt.ddt
 class TestLogin(unittest.TestCase):
     @myddt.data(*case_data)

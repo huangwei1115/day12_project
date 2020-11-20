@@ -9,17 +9,16 @@ import os
 from common.handle_excel import Excel
 from common import myddt
 from common.handle_log import Log
-from common.handle_path import DATA_DIR,CONF_DIR
+from common.handle_path import DATA_DIR
 import requests
 import random
 import json
-from common.handle_conf import Conf
-from common.handle_db1 import Db
+from common.handle_conf import conf
+from common.handle_db import db
 sh=Excel(os.path.join(DATA_DIR,"case.xlsx"),"register")
 sh.open()
 case_data=sh.read_excel()
 log=Log.create_log()
-conf=Conf(os.path.join(CONF_DIR,"conf.ini"))
 @myddt.ddt
 class TestRegister(unittest.TestCase):
 
@@ -52,8 +51,6 @@ class TestRegister(unittest.TestCase):
             sh.write_excel(item["case_id"]+1, 8, "执行通过")
     @staticmethod
     def random_phone():
-        db = Db()
-        db.connect()
         # while True:
         #     mobile_id = random.randint(13000000000, 13099999999)
         #     sql = db.find_data("select * from member where mobile_phone={}".format(mobile_id))
@@ -62,7 +59,7 @@ class TestRegister(unittest.TestCase):
         sql=True
         while sql:
             mobile_id = random.randint(13000000000, 13099999999)
-            sql = db.find_data("select * from member where mobile_phone={}".format(mobile_id))
+            sql = db.find_data("select * from futureloan.member where mobile_phone={}".format(mobile_id))
             if not sql:
                 return mobile_id
 

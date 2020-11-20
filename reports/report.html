@@ -152,15 +152,15 @@
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">开始时间</button>
-                <span class="text-dark">2020-11-19 13:12:19</span>
+                <span class="text-dark">2020-11-20 18:48:01</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">执行时间</button>
-                <span class="text-dark">1.50 S</span>
+                <span class="text-dark">7.75 S</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">用例总数</button>
-                <span class="text-dark">12</span>
+                <span class="text-dark">43</span>
             </li>
 
 
@@ -171,15 +171,15 @@
 
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">成功用例</button>
-                <span class="text-success">1</span>
+                <span class="text-success">22</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-danger">失败用例</button>
-                <span class="text-warning">8</span>
+                <span class="text-warning">21</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-warning">错误用例</button>
-                <span class="text-danger">3</span>
+                <span class="text-danger">0</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-secondary">跳过用例</button>
@@ -221,7 +221,13 @@
                     <select id="testClass">
                         <option>所有</option>
                         
+                            <option>TestLogin</option>
+                        
+                            <option>TestRegister</option>
+                        
                             <option>TestRecharge</option>
+                        
+                            <option>TestWithdraw</option>
                         
                     </select>
 
@@ -249,12 +255,12 @@
             
                 <tr>
                     <td>1</td>
-                    <td class="TestRecharge">TestRecharge</td>
-                    <td>test_recharge_01</td>
-                    <td>充值成功</td>
-                    <td>0.0903s</td>
+                    <td class="TestLogin">TestLogin</td>
+                    <td>test_login_1</td>
+                    <td>登录成功</td>
+                    <td>0.25s</td>
                     
-                        <td class="text-warning">错误</td>
+                        <td class="text-success">成功</td>
                     
                     <td>
                         <button type="button" class="btn btn-success btn_info">查看详情</button>
@@ -266,36 +272,9 @@
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>Traceback (most recent call last):
-</pre>
-                        
-
-                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
-    yield
-</pre>
-                        
-
-                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
-    testMethod()
-</pre>
-                        
-
-                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
-    return func(self, *args, **kwargs)
-</pre>
-                        
-
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 53, in test_recharge
-    leave_amount_before=check_sql_before[0]["leave_amount"]
-</pre>
-                        
-
-                            <pre>TypeError: tuple indices must be integers or slices, not str
-</pre>
-                        
-
-                            <pre>((Decimal('3066615.90'),),) <class 'tuple'> (Decimal('3066615.90'),)
-test_recharge_01 (test_03recharge.TestRecharge)执行——>【错误Error】
+                            <pre>预期结果为{'code': 0, 'msg': 'OK'}
+实际结果为{'code': 0, 'msg': 'OK'}
+test_login_1 (test_01login.TestLogin)执行——>【通过】
 </pre>
                         
                         
@@ -304,12 +283,12 @@ test_recharge_01 (test_03recharge.TestRecharge)执行——>【错误Error】
             
                 <tr>
                     <td>2</td>
-                    <td class="TestRecharge">TestRecharge</td>
-                    <td>test_recharge_02</td>
-                    <td>充值0.01成功</td>
-                    <td>0.0868s</td>
+                    <td class="TestLogin">TestLogin</td>
+                    <td>test_login_2</td>
+                    <td>密码错误</td>
+                    <td>0.245s</td>
                     
-                        <td class="text-warning">错误</td>
+                        <td class="text-success">成功</td>
                     
                     <td>
                         <button type="button" class="btn btn-success btn_info">查看详情</button>
@@ -321,36 +300,9 @@ test_recharge_01 (test_03recharge.TestRecharge)执行——>【错误Error】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>Traceback (most recent call last):
-</pre>
-                        
-
-                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
-    yield
-</pre>
-                        
-
-                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
-    testMethod()
-</pre>
-                        
-
-                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
-    return func(self, *args, **kwargs)
-</pre>
-                        
-
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 53, in test_recharge
-    leave_amount_before=check_sql_before[0]["leave_amount"]
-</pre>
-                        
-
-                            <pre>TypeError: tuple indices must be integers or slices, not str
-</pre>
-                        
-
-                            <pre>((Decimal('3066615.90'),),) <class 'tuple'> (Decimal('3066615.90'),)
-test_recharge_02 (test_03recharge.TestRecharge)执行——>【错误Error】
+                            <pre>预期结果为{'code': 1001, 'msg': '账号信息错误'}
+实际结果为{'code': 1001, 'msg': '账号信息错误'}
+test_login_2 (test_01login.TestLogin)执行——>【通过】
 </pre>
                         
                         
@@ -359,12 +311,12 @@ test_recharge_02 (test_03recharge.TestRecharge)执行——>【错误Error】
             
                 <tr>
                     <td>3</td>
-                    <td class="TestRecharge">TestRecharge</td>
-                    <td>test_recharge_03</td>
-                    <td>充值500000成功</td>
-                    <td>0.0875s</td>
+                    <td class="TestLogin">TestLogin</td>
+                    <td>test_login_3</td>
+                    <td>账号错误</td>
+                    <td>0.236s</td>
                     
-                        <td class="text-warning">错误</td>
+                        <td class="text-danger">失败</td>
                     
                     <td>
                         <button type="button" class="btn btn-success btn_info">查看详情</button>
@@ -374,6 +326,12 @@ test_recharge_02 (test_03recharge.TestRecharge)执行——>【错误Error】
                 <tr class="test_log">
 
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 1002, 'msg': '账号信息错误'}
+实际结果为{'code': 1001, 'msg': '账号信息错误'}
+test_login_3 (test_01login.TestLogin)执行——>【失败】
+</pre>
                         
 
                             <pre>Traceback (most recent call last):
@@ -395,17 +353,38 @@ test_recharge_02 (test_03recharge.TestRecharge)执行——>【错误Error】
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 53, in test_recharge
-    leave_amount_before=check_sql_before[0]["leave_amount"]
+                            <pre>  File "D:\lemon\day12_project\testcase\test_01login.py", line 40, in test_login
+    raise e
 </pre>
                         
 
-                            <pre>TypeError: tuple indices must be integers or slices, not str
+                            <pre>  File "D:\lemon\day12_project\testcase\test_01login.py", line 36, in test_login
+    self.assertEqual(res2,expected)
 </pre>
                         
 
-                            <pre>((Decimal('3066615.90'),),) <class 'tuple'> (Decimal('3066615.90'),)
-test_recharge_03 (test_03recharge.TestRecharge)执行——>【错误Error】
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 1001, 'msg': '账号信息错误'} != {'code': 1002, 'msg': '账号信息错误'}
+- {'code': 1001, 'msg': '账号信息错误'}
+?             ^
+
++ {'code': 1002, 'msg': '账号信息错误'}
+?             ^
+
 </pre>
                         
                         
@@ -414,10 +393,711 @@ test_recharge_03 (test_03recharge.TestRecharge)执行——>【错误Error】
             
                 <tr>
                     <td>4</td>
+                    <td class="TestLogin">TestLogin</td>
+                    <td>test_login_4</td>
+                    <td>账号为空</td>
+                    <td>0.116s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 1, 'msg': '手机号码为空'}
+实际结果为{'code': 1, 'msg': '手机号码为空'}
+test_login_4 (test_01login.TestLogin)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="TestLogin">TestLogin</td>
+                    <td>test_login_5</td>
+                    <td>密码为空</td>
+                    <td>0.114s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 1, 'msg': '密码为空'}
+实际结果为{'code': 1, 'msg': '密码为空'}
+test_login_5 (test_01login.TestLogin)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_01</td>
+                    <td>正常注册(类型、注册名为空)</td>
+                    <td>0.473s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 0, 'msg': 'OK'}
+test_register_01 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_02</td>
+                    <td>正常注册(类型为0、注册名为空)</td>
+                    <td>0.443s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 0, 'msg': 'OK'}
+test_register_02 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_03</td>
+                    <td>正常注册(类型为空、注册名正常)</td>
+                    <td>0.109s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 2, 'msg': '无效的手机格式'}
+test_register_03 (test_02register.TestRegister)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_02register.py", line 48, in test_register
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_02register.py", line 43, in test_register
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 2, 'msg': '无效的手机格式'} != {'code': 0, 'msg': 'OK'}
+- {'code': 2, 'msg': '无效的手机格式'}
+?          ^          ^^^^^^^
+
++ {'code': 0, 'msg': 'OK'}
+?          ^          ^^
+
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_04</td>
+                    <td>注册失败(类型格式异常、注册名为空)</td>
+                    <td>0.325s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 1004, 'msg': 'JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "流水无痕": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer` from String "流水无痕": not a valid Integer value\n at [Source: (PushbackInputStream); line: 1, column: 60] (through reference chain: com.lemon.pojo.Member["type"])'}
+test_register_04 (test_02register.TestRegister)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_02register.py", line 48, in test_register
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_02register.py", line 43, in test_register
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 1004, 'msg': 'JSON parse error: Cannot de[380 chars]"])'} != {'code': 2, 'msg': '格式错误'}
++ {'code': 2, 'msg': '格式错误'}
+- {'code': 1004,
+-  'msg': 'JSON parse error: Cannot deserialize value of type '
+-         '`java.lang.Integer` from String "流水无痕": not a valid Integer value; '
+-         'nested exception is '
+-         'com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot '
+-         'deserialize value of type `java.lang.Integer` from String "流水无痕": not '
+-         'a valid Integer value\n'
+-         ' at [Source: (PushbackInputStream); line: 1, column: 60] (through '
+-         'reference chain: com.lemon.pojo.Member["type"])'}
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_05</td>
+                    <td>注册失败(类型为空、注册名大于10位)</td>
+                    <td>0.321s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 2, 'msg': '用户昵称长度超过10位'}
+test_register_05 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_06</td>
+                    <td>注册失败(手机号已被注册)</td>
+                    <td>0.103s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 2, 'msg': '无效的手机格式'}
+test_register_06 (test_02register.TestRegister)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_02register.py", line 48, in test_register
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_02register.py", line 43, in test_register
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 2, 'msg': '无效的手机格式'} != {'code': 2, 'msg': '账号已存在'}
+- {'code': 2, 'msg': '无效的手机格式'}
+?                     ^^^^^^^
+
++ {'code': 2, 'msg': '账号已存在'}
+?                     ^^^^^
+
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_07</td>
+                    <td>注册失败(手机号过长)</td>
+                    <td>0.108s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 2, 'msg': '无效的手机格式'}
+test_register_07 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_08</td>
+                    <td>注册失败(手机号过短)</td>
+                    <td>0.111s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 2, 'msg': '无效的手机格式'}
+test_register_08 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_09</td>
+                    <td>注册失败(手机号包含特殊字符)</td>
+                    <td>0.106s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 2, 'msg': '无效的手机格式'}
+test_register_09 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>15</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_10</td>
+                    <td>注册失败(手机号为空)</td>
+                    <td>0.113s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 1, 'msg': '手机号为空'}
+test_register_10 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>16</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_11</td>
+                    <td>注册失败(密码为空)</td>
+                    <td>0.106s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 1, 'msg': '密码为空'}
+test_register_11 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>17</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_12</td>
+                    <td>注册失败(类型超出范围)</td>
+                    <td>0.105s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 2, 'msg': '不支持的用户类型'}
+test_register_12 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>18</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_13</td>
+                    <td>注册失败(密码过长)</td>
+                    <td>0.111s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 2, 'msg': '密码格式为8到16位'}
+test_register_13 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>19</td>
+                    <td class="TestRegister">TestRegister</td>
+                    <td>test_register_14</td>
+                    <td>注册失败(密码过短)</td>
+                    <td>0.111s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre><class 'dict'>
+{'code': 2, 'msg': '密码格式为8到16位'}
+test_register_14 (test_02register.TestRegister)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>20</td>
+                    <td class="TestRecharge">TestRecharge</td>
+                    <td>test_recharge_01</td>
+                    <td>充值成功</td>
+                    <td>0.281s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>[{'leave_amount': Decimal('5112128.26')}] <class 'list'> {'leave_amount': Decimal('5112128.26')}
+预期结果为{'code': 0, 'msg': 'OK'}
+实际结果为{'code': 0, 'msg': 'OK'}
+test_recharge_01 (test_03recharge.TestRecharge)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>21</td>
+                    <td class="TestRecharge">TestRecharge</td>
+                    <td>test_recharge_02</td>
+                    <td>充值0.01成功</td>
+                    <td>0.283s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>[{'leave_amount': Decimal('5122129.14')}] <class 'list'> {'leave_amount': Decimal('5122129.14')}
+预期结果为{'code': 0, 'msg': 'OK'}
+实际结果为{'code': 0, 'msg': 'OK'}
+test_recharge_02 (test_03recharge.TestRecharge)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>22</td>
+                    <td class="TestRecharge">TestRecharge</td>
+                    <td>test_recharge_03</td>
+                    <td>充值500000成功</td>
+                    <td>0.287s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>[{'leave_amount': Decimal('5122129.15')}] <class 'list'> {'leave_amount': Decimal('5122129.15')}
+预期结果为{'code': 0, 'msg': 'OK'}
+实际结果为{'code': 0, 'msg': 'OK'}
+test_recharge_03 (test_03recharge.TestRecharge)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>23</td>
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_04</td>
                     <td>充值0失败</td>
-                    <td>0.117s</td>
+                    <td>0.115s</td>
                     
                         <td class="text-danger">失败</td>
                     
@@ -456,12 +1136,12 @@ test_recharge_04 (test_03recharge.TestRecharge)执行——>【失败】
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 73, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 70, in test_recharge
     raise e
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 66, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 63, in test_recharge
     self.assertEqual(res2,expected)
 </pre>
                         
@@ -491,11 +1171,11 @@ test_recharge_04 (test_03recharge.TestRecharge)执行——>【失败】
                 </tr>
             
                 <tr>
-                    <td>5</td>
+                    <td>24</td>
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_05</td>
                     <td>用户id为空</td>
-                    <td>0.115s</td>
+                    <td>0.109s</td>
                     
                         <td class="text-danger">失败</td>
                     
@@ -534,12 +1214,12 @@ test_recharge_05 (test_03recharge.TestRecharge)执行——>【失败】
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 73, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 70, in test_recharge
     raise e
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 66, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 63, in test_recharge
     self.assertEqual(res2,expected)
 </pre>
                         
@@ -571,11 +1251,11 @@ test_recharge_05 (test_03recharge.TestRecharge)执行——>【失败】
                 </tr>
             
                 <tr>
-                    <td>6</td>
+                    <td>25</td>
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_06</td>
                     <td>充值金额为空</td>
-                    <td>0.109s</td>
+                    <td>0.111s</td>
                     
                         <td class="text-danger">失败</td>
                     
@@ -614,12 +1294,12 @@ test_recharge_06 (test_03recharge.TestRecharge)执行——>【失败】
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 73, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 70, in test_recharge
     raise e
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 66, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 63, in test_recharge
     self.assertEqual(res2,expected)
 </pre>
                         
@@ -653,11 +1333,11 @@ test_recharge_06 (test_03recharge.TestRecharge)执行——>【失败】
                 </tr>
             
                 <tr>
-                    <td>7</td>
+                    <td>26</td>
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_07</td>
                     <td>用户id不存在</td>
-                    <td>0.111s</td>
+                    <td>0.103s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -681,11 +1361,11 @@ test_recharge_07 (test_03recharge.TestRecharge)执行——>【通过】
                 </tr>
             
                 <tr>
-                    <td>8</td>
+                    <td>27</td>
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_08</td>
                     <td>充值金额为负值</td>
-                    <td>0.112s</td>
+                    <td>0.108s</td>
                     
                         <td class="text-danger">失败</td>
                     
@@ -724,12 +1404,12 @@ test_recharge_08 (test_03recharge.TestRecharge)执行——>【失败】
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 73, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 70, in test_recharge
     raise e
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 66, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 63, in test_recharge
     self.assertEqual(res2,expected)
 </pre>
                         
@@ -763,11 +1443,11 @@ test_recharge_08 (test_03recharge.TestRecharge)执行——>【失败】
                 </tr>
             
                 <tr>
-                    <td>9</td>
+                    <td>28</td>
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_09</td>
                     <td>充值金额超出范围</td>
-                    <td>0.116s</td>
+                    <td>0.109s</td>
                     
                         <td class="text-danger">失败</td>
                     
@@ -806,12 +1486,12 @@ test_recharge_09 (test_03recharge.TestRecharge)执行——>【失败】
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 73, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 70, in test_recharge
     raise e
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 66, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 63, in test_recharge
     self.assertEqual(res2,expected)
 </pre>
                         
@@ -845,11 +1525,11 @@ test_recharge_09 (test_03recharge.TestRecharge)执行——>【失败】
                 </tr>
             
                 <tr>
-                    <td>10</td>
+                    <td>29</td>
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_10</td>
                     <td>充值金额3位小数</td>
-                    <td>0.118s</td>
+                    <td>0.108s</td>
                     
                         <td class="text-danger">失败</td>
                     
@@ -888,12 +1568,12 @@ test_recharge_10 (test_03recharge.TestRecharge)执行——>【失败】
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 73, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 70, in test_recharge
     raise e
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 66, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 63, in test_recharge
     self.assertEqual(res2,expected)
 </pre>
                         
@@ -927,11 +1607,11 @@ test_recharge_10 (test_03recharge.TestRecharge)执行——>【失败】
                 </tr>
             
                 <tr>
-                    <td>11</td>
+                    <td>30</td>
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_11</td>
                     <td>充值金额为字符串格式</td>
-                    <td>0.12s</td>
+                    <td>0.122s</td>
                     
                         <td class="text-danger">失败</td>
                     
@@ -970,12 +1650,12 @@ test_recharge_11 (test_03recharge.TestRecharge)执行——>【失败】
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 73, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 70, in test_recharge
     raise e
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 66, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 63, in test_recharge
     self.assertEqual(res2,expected)
 </pre>
                         
@@ -1009,11 +1689,11 @@ test_recharge_11 (test_03recharge.TestRecharge)执行——>【失败】
                 </tr>
             
                 <tr>
-                    <td>12</td>
+                    <td>31</td>
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_12</td>
                     <td>用户名字字符串格式</td>
-                    <td>0.12s</td>
+                    <td>0.118s</td>
                     
                         <td class="text-danger">失败</td>
                     
@@ -1052,12 +1732,829 @@ test_recharge_12 (test_03recharge.TestRecharge)执行——>【失败】
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 73, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 70, in test_recharge
     raise e
 </pre>
                         
 
-                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 66, in test_recharge
+                            <pre>  File "D:\lemon\day12_project\testcase\test_03recharge.py", line 63, in test_recharge
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 0, 'msg': 'OK'} != {'code': 2, 'msg': '格式错误'}
+- {'code': 0, 'msg': 'OK'}
+?          ^          ^^
+
++ {'code': 2, 'msg': '格式错误'}
+?          ^          ^^^^
+
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>32</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_01</td>
+                    <td>提现成功</td>
+                    <td>0.283s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>[{'leave_amount': Decimal('5623230.91')}] <class 'list'> {'leave_amount': Decimal('5623230.91')}
+预期结果为{'code': 0, 'msg': 'OK'}
+实际结果为{'code': 0, 'msg': 'OK'}
+test_recharge_01 (test_04withdraw.TestWithdraw)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>33</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_02</td>
+                    <td>提现0.01成功</td>
+                    <td>0.302s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>[{'leave_amount': Decimal('5613230.03')}] <class 'list'> {'leave_amount': Decimal('5613230.03')}
+预期结果为{'code': 0, 'msg': 'OK'}
+实际结果为{'code': 0, 'msg': 'OK'}
+test_recharge_02 (test_04withdraw.TestWithdraw)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>34</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_03</td>
+                    <td>提现500000成功</td>
+                    <td>0.286s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>[{'leave_amount': Decimal('5613230.02')}] <class 'list'> {'leave_amount': Decimal('5613230.02')}
+预期结果为{'code': 0, 'msg': 'OK'}
+实际结果为{'code': 0, 'msg': 'OK'}
+test_recharge_03 (test_04withdraw.TestWithdraw)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>35</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_04</td>
+                    <td>提现0失败</td>
+                    <td>0.114s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+实际结果为{'code': 0, 'msg': 'OK'}
+test_recharge_04 (test_04withdraw.TestWithdraw)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 70, in test_recharge
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 63, in test_recharge
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 0, 'msg': 'OK'} != {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+- {'code': 0, 'msg': 'OK'}
++ {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>36</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_05</td>
+                    <td>用户id为空</td>
+                    <td>0.105s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 1, 'msg': '用户id不能为空'}
+实际结果为{'code': 1, 'msg': '会员id为空'}
+test_recharge_05 (test_04withdraw.TestWithdraw)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 70, in test_recharge
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 63, in test_recharge
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 1, 'msg': '会员id为空'} != {'code': 1, 'msg': '用户id不能为空'}
+- {'code': 1, 'msg': '会员id为空'}
+?                     ^^
+
++ {'code': 1, 'msg': '用户id不能为空'}
+?                     ^^  ++
+
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>37</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_06</td>
+                    <td>提现金额为空</td>
+                    <td>0.103s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 2, 'msg': '金额必须是数值型'}
+实际结果为{'code': 1, 'msg': '余额为空'}
+test_recharge_06 (test_04withdraw.TestWithdraw)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 70, in test_recharge
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 63, in test_recharge
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 1, 'msg': '余额为空'} != {'code': 2, 'msg': '金额必须是数值型'}
+- {'code': 1, 'msg': '余额为空'}
+?          ^          ^ ^^
+
++ {'code': 2, 'msg': '金额必须是数值型'}
+?          ^          ^ ^^^^^^
+
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>38</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_07</td>
+                    <td>用户id不存在</td>
+                    <td>0.111s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 1007, 'msg': '无权限访问，请检查参数'}
+实际结果为{'code': 2, 'msg': '会员不存在'}
+test_recharge_07 (test_04withdraw.TestWithdraw)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 70, in test_recharge
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 63, in test_recharge
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 2, 'msg': '会员不存在'} != {'code': 1007, 'msg': '无权限访问，请检查参数'}
+- {'code': 2, 'msg': '会员不存在'}
++ {'code': 1007, 'msg': '无权限访问，请检查参数'}
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>39</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_08</td>
+                    <td>提现金额为负值</td>
+                    <td>0.11s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+实际结果为{'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'}
+test_recharge_08 (test_04withdraw.TestWithdraw)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 70, in test_recharge
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 63, in test_recharge
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'} != {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+- {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'}
+?                     ^                    -
+
++ {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+?                     ^
+
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>40</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_09</td>
+                    <td>提现金额超出范围</td>
+                    <td>0.106s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+实际结果为{'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'}
+test_recharge_09 (test_04withdraw.TestWithdraw)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 70, in test_recharge
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 63, in test_recharge
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'} != {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+- {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'}
+?                     ^                    -
+
++ {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+?                     ^
+
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>41</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_10</td>
+                    <td>提现金额3位小数</td>
+                    <td>0.109s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 2, 'msg': '手机号为空'}
+实际结果为{'code': 2, 'msg': '余额小数超过两位'}
+test_recharge_10 (test_04withdraw.TestWithdraw)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 70, in test_recharge
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 63, in test_recharge
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 2, 'msg': '余额小数超过两位'} != {'code': 2, 'msg': '手机号为空'}
+- {'code': 2, 'msg': '余额小数超过两位'}
+?                     ^^^^^^^^
+
++ {'code': 2, 'msg': '手机号为空'}
+?                     ^^^^^
+
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>42</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_11</td>
+                    <td>提现金额为字符串格式</td>
+                    <td>0.117s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 2, 'msg': '格式错误'}
+实际结果为{'code': 0, 'msg': 'OK'}
+test_recharge_11 (test_04withdraw.TestWithdraw)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 70, in test_recharge
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 63, in test_recharge
+    self.assertEqual(res2,expected)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 0, 'msg': 'OK'} != {'code': 2, 'msg': '格式错误'}
+- {'code': 0, 'msg': 'OK'}
+?          ^          ^^
+
++ {'code': 2, 'msg': '格式错误'}
+?          ^          ^^^^
+
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>43</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_recharge_12</td>
+                    <td>用户名字字符串格式</td>
+                    <td>0.119s</td>
+                    
+                        <td class="text-danger">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>预期结果为{'code': 2, 'msg': '格式错误'}
+实际结果为{'code': 0, 'msg': 'OK'}
+test_recharge_12 (test_04withdraw.TestWithdraw)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "D:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\common\myddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 70, in test_recharge
+    raise e
+</pre>
+                        
+
+                            <pre>  File "D:\lemon\day12_project\testcase\test_04withdraw.py", line 63, in test_recharge
     self.assertEqual(res2,expected)
 </pre>
                         
@@ -1219,9 +2716,9 @@ test_recharge_12 (test_03recharge.TestRecharge)执行——>【失败】
                     show: false
                 },
                 data: [
-                    {value: 1, name: '通过'},
-                    {value: 8, name: '失败'},
-                    {value: 3, name: '错误'},
+                    {value: 22, name: '通过'},
+                    {value: 21, name: '失败'},
+                    {value: 0, name: '错误'},
                     {value: 0, name: '跳过'}
                 ]
             }
@@ -1241,8 +2738,8 @@ test_recharge_12 (test_03recharge.TestRecharge)执行——>【失败】
             {
                 name: '测试结果',
                 type: 'gauge',
-                detail: {formatter: '8.33%'},
-                data: [{value: '8.33', name: '用例通过率'}],
+                detail: {formatter: '51.16%'},
+                data: [{value: '51.16', name: '用例通过率'}],
                 axisLine: {
                     lineStyle: {
                         color: [

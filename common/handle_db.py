@@ -7,13 +7,10 @@
 import pymysql
 from common.handle_conf import conf
 
-
-
-
 class Db:
     def __init__(self,host,port,user,password):
         self.con=pymysql.Connect(host=host,port=port,user=user,password=password,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
-        self.cur=self.connect.cursor()
+        self.cur=self.con.cursor()
     def find_data(self,sql):
         self.con.commit()
         self.cur.execute(sql)

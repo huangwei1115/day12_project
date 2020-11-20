@@ -15,12 +15,12 @@ from common import myddt
 from common.handle_log import Log
 import os
 import unittest
-sh=Excel(os.path.join(DATA_DIR,"case.xlsx"),"recharge")
+sh=Excel(os.path.join(DATA_DIR,"case.xlsx"),"withdraw")
 sh.open()
 case_data=sh.read_excel()
 log=Log.create_log()
 @myddt.ddt
-class TestRecharge(unittest.TestCase):
+class TestWithdraw(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         url=conf.get("api","baseUrl")+"/member/login"
@@ -62,7 +62,7 @@ class TestRecharge(unittest.TestCase):
         try:
             self.assertEqual(res2,expected)
             if item["check_sql"]:
-                self.assertEqual(float(leave_amount_after-leave_amount_before),float(params["amount"]))
+                self.assertEqual(float(leave_amount_before-leave_amount_after),float(params["amount"]))
 
         except AssertionError as e:
             log.error("{}用例执行失败".format(item["title"]))
