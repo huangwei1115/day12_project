@@ -15,12 +15,12 @@ from common.handle_log import Log
 import os
 import unittest
 from common.handle_replacedata import replace_data
-sh=Excel(os.path.join(DATA_DIR,"case.xlsx"),"withdraw")
+sh=Excel(os.path.join(DATA_DIR,"case.xlsx"),"loanadd")
 sh.open()
 case_data=sh.read_excel()
 log=Log.create_log()
 @myddt.ddt
-class TestWithdraw(unittest.TestCase):
+class TestLoanAdd(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         url=conf.get("api","baseUrl")+"/member/login"
@@ -33,36 +33,31 @@ class TestWithdraw(unittest.TestCase):
         cls.member_id = jsonpath.jsonpath(eval(res), "$..id")[0]
 
     @myddt.data(*case_data)
-    def test_recharge(self,item):
+    def test_loan_add(self,item):
         # if "#member_id#" in item["params"]:
         #     item["params"]=item["params"].replace("#member_id#",str(self.member_id))
-        rep=replace_data(TestWithdraw,item["params"])
+        rep=replace_data(TestLoanAdd,item["params"])
         print(rep)
         params=eval(rep)
         expected=eval(item["expected"])
         url=conf.get("api","baseUrl")+item["url"]
         headers=eval(conf.get("api","headers"))
         headers["Authorization"]=self.token_result
-        check_sql = item["check_sql"]
-        if check_sql:
-            check_sql_before=db.find_data(check_sql.format(self.member_id))
-            print(check_sql_before,type(check_sql_before),check_sql_before[0])
-            leave_amount_before=check_sql_before[0]["leave_amount"]
         response=requests.post(url=url,json=params,headers=headers)
         res=response.json()
-        if check_sql:
-            check_sql_after = db.find_data(check_sql.format(self.member_id))
-            leave_amount_after = check_sql_after[0]["leave_amount"]
-        # print(leave_amount_before,leave_amount_after,type(leave_amount_before),type(leave_amount_after))
-        res = response.json()
         print("预期结果为{}".format(expected))
         print("实际结果为{}".format(res))
         try:
-            self.assertEqual(res["code"], expected["code"])
-            self.assertEqual(res["msg"], expected["msg"])
+            self.assertEqual(res["code"],expected["code"])
+            self.assertEqual(res["msg"],expected["msg"])
+            # if item["check_sql"]:
+            #     loan_id = jsonpath.jsonpath(res, "$..id")[0]
+            #     sql = db.find_data(item["check_sql"].format(loan_id))
+            #     self.assertTrue(sql)
             if item["check_sql"]:
-                self.assertEqual(float(leave_amount_before-leave_amount_after),float(params["amount"]))
-
+                loan_id = jsonpath.jsonpath(res, "$..id")[0]
+                sql = db.find_data(item["check_sql"].format(loan_id))[0]
+                self.assertEqual(loan_id,sql["id"])
         except AssertionError as e:
             log.error("{}用例执行失败".format(item["title"]))
             sh.write_excel(item["case_id"] + 1, 8, "执行不通过")

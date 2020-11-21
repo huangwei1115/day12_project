@@ -26,14 +26,12 @@ class TestLogin(unittest.TestCase):
         expected=eval(item["expected"])
         headers=eval(conf.get("api","headers"))
         response=requests.post(url=url,json=params,headers=headers)
-        res1=json.loads(response.text)
-        res2={}
-        res2["code"]=res1["code"]
-        res2["msg"]=res1["msg"]
+        res=json.loads(response.text)
         print("预期结果为{}".format(expected))
-        print("实际结果为{}".format(res2))
+        print("实际结果为{}".format(res))
         try:
-            self.assertEqual(res2,expected)
+            self.assertEqual(res["code"], expected["code"])
+            self.assertEqual(res["msg"], expected["msg"])
         except AssertionError as e:
             log.error("{}用例执行失败".format(item["title"]))
             sh.write_excel(item["case_id"]+1,8,"执行不通过")

@@ -25,4 +25,9 @@ class Conf(configparser.ConfigParser):
     def __init__(self,filename,encoding="utf-8"):
         super().__init__()
         self.read(filename,encoding=encoding)
+        self.filename=filename
+        self.encoding=encoding
+    def write_data(self,section,option,value):
+        self.set(section,option,value)
+        self.write(fp=open(self.filename,"w",encoding="utf-8"))
 conf = Conf(os.path.join(CONF_DIR, "conf.ini"))

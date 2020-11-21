@@ -1,639 +1,303 @@
 Starting new HTTP connection (1): api.lemonban.com:80
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值0.01成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值500000成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值0失败用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-用户id为空用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额为空用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-用户id不存在用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额为负值用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额超出范围用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额3位小数用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额为字符串格式用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-用户名字字符串格式用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-登录成功用例执行通过
-登录成功用例执行通过
 登录成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 密码错误用例执行通过
-密码错误用例执行通过
-密码错误用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 账号错误用例执行失败
-账号错误用例执行失败
-账号错误用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 账号为空用例执行通过
-账号为空用例执行通过
-账号为空用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 密码为空用例执行通过
-密码为空用例执行通过
-密码为空用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-正常注册(类型为空、注册名正常)用例不通过
-正常注册(类型为空、注册名正常)用例不通过
-正常注册(类型为空、注册名正常)用例不通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-注册失败(手机号已被注册)用例不通过
-注册失败(手机号已被注册)用例不通过
-注册失败(手机号已被注册)用例不通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-注册失败(手机号过长)用例通过
-注册失败(手机号过长)用例通过
-注册失败(手机号过长)用例通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-注册失败(手机号过短)用例通过
-注册失败(手机号过短)用例通过
-注册失败(手机号过短)用例通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-注册失败(手机号包含特殊字符)用例通过
-注册失败(手机号包含特殊字符)用例通过
-注册失败(手机号包含特殊字符)用例通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-注册失败(手机号为空)用例通过
-注册失败(手机号为空)用例通过
-注册失败(手机号为空)用例通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-注册失败(密码为空)用例通过
-注册失败(密码为空)用例通过
-注册失败(密码为空)用例通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-注册失败(类型超出范围)用例通过
-注册失败(类型超出范围)用例通过
-注册失败(类型超出范围)用例通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-注册失败(密码过长)用例通过
-注册失败(密码过长)用例通过
-注册失败(密码过长)用例通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-注册失败(密码过短)用例通过
-注册失败(密码过短)用例通过
-注册失败(密码过短)用例通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值成功用例执行通过
-充值成功用例执行通过
-充值成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值0.01成功用例执行通过
-充值0.01成功用例执行通过
-充值0.01成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值500000成功用例执行通过
-充值500000成功用例执行通过
-充值500000成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值0失败用例执行失败
-充值0失败用例执行失败
-充值0失败用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-用户id为空用例执行失败
-用户id为空用例执行失败
-用户id为空用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额为空用例执行失败
-充值金额为空用例执行失败
-充值金额为空用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-用户id不存在用例执行通过
-用户id不存在用例执行通过
-用户id不存在用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额为负值用例执行失败
-充值金额为负值用例执行失败
-充值金额为负值用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额超出范围用例执行失败
-充值金额超出范围用例执行失败
-充值金额超出范围用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额3位小数用例执行失败
-充值金额3位小数用例执行失败
-充值金额3位小数用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额为字符串格式用例执行失败
-充值金额为字符串格式用例执行失败
-充值金额为字符串格式用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-用户名字字符串格式用例执行失败
-用户名字字符串格式用例执行失败
-用户名字字符串格式用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-登录成功用例执行通过
-登录成功用例执行通过
-登录成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-密码错误用例执行通过
-密码错误用例执行通过
-密码错误用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-账号错误用例执行失败
-账号错误用例执行失败
-账号错误用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-账号为空用例执行通过
-账号为空用例执行通过
-账号为空用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-密码为空用例执行通过
-密码为空用例执行通过
-密码为空用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 正常注册(类型、注册名为空)用例通过
-正常注册(类型、注册名为空)用例通过
-正常注册(类型、注册名为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 正常注册(类型为0、注册名为空)用例通过
-正常注册(类型为0、注册名为空)用例通过
-正常注册(类型为0、注册名为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 正常注册(类型为空、注册名正常)用例不通过
-正常注册(类型为空、注册名正常)用例不通过
-正常注册(类型为空、注册名正常)用例不通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(类型格式异常、注册名为空)用例不通过
-注册失败(类型格式异常、注册名为空)用例不通过
-注册失败(类型格式异常、注册名为空)用例不通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(类型为空、注册名大于10位)用例通过
-注册失败(类型为空、注册名大于10位)用例通过
-注册失败(类型为空、注册名大于10位)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号已被注册)用例不通过
-注册失败(手机号已被注册)用例不通过
-注册失败(手机号已被注册)用例不通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号过长)用例通过
-注册失败(手机号过长)用例通过
-注册失败(手机号过长)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号过短)用例通过
-注册失败(手机号过短)用例通过
-注册失败(手机号过短)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号包含特殊字符)用例通过
-注册失败(手机号包含特殊字符)用例通过
-注册失败(手机号包含特殊字符)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号为空)用例通过
-注册失败(手机号为空)用例通过
-注册失败(手机号为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(密码为空)用例通过
-注册失败(密码为空)用例通过
-注册失败(密码为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(类型超出范围)用例通过
-注册失败(类型超出范围)用例通过
-注册失败(类型超出范围)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(密码过长)用例通过
-注册失败(密码过长)用例通过
-注册失败(密码过长)用例通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+注册失败(密码过短)用例通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+充值成功用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+充值0.01成功用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+充值500000成功用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+充值0失败用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+用户id为空用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为空用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+用户id不存在用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为负值用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+充值金额超出范围用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+充值金额3位小数用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+充值金额为字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+用户名字字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+提现成功用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+提现0.01成功用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+提现500000成功用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+提现0失败用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+用户id为空用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+提现金额为空用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+用户id不存在用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+提现金额为负值用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+提现金额超出范围用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+提现金额3位小数用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+提现金额为字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+用户名字字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，按月借款用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款1月用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款36月用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，按天借款用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款10天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款45天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，竞标1天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，竞标10天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，id为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，id错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，标题为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，标题格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款金额为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款金额为负用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款金额三位小数用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，年利率为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，年利率为负用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，年利率三位小数用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，按月借款期限超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，按天借款期限超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限类型为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限类型超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限类型格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，竞标天数为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，竞标天数超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，竞标天数格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+登录成功用例执行通过
+登录成功用例执行通过
+登录成功用例执行通过
+登录成功用例执行通过
+登录成功用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+密码错误用例执行通过
+密码错误用例执行通过
+密码错误用例执行通过
+密码错误用例执行通过
+密码错误用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+账号错误用例执行失败
+账号错误用例执行失败
+账号错误用例执行失败
+账号错误用例执行失败
+账号错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+账号为空用例执行通过
+账号为空用例执行通过
+账号为空用例执行通过
+账号为空用例执行通过
+账号为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+密码为空用例执行通过
+密码为空用例执行通过
+密码为空用例执行通过
+密码为空用例执行通过
+密码为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
-注册失败(密码过短)用例通过
-注册失败(密码过短)用例通过
-注册失败(密码过短)用例通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值成功用例执行通过
-充值成功用例执行通过
-充值成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值0.01成功用例执行通过
-充值0.01成功用例执行通过
-充值0.01成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值500000成功用例执行通过
-充值500000成功用例执行通过
-充值500000成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值0失败用例执行失败
-充值0失败用例执行失败
-充值0失败用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-用户id为空用例执行失败
-用户id为空用例执行失败
-用户id为空用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额为空用例执行失败
-充值金额为空用例执行失败
-充值金额为空用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-用户id不存在用例执行通过
-用户id不存在用例执行通过
-用户id不存在用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额为负值用例执行失败
-充值金额为负值用例执行失败
-充值金额为负值用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额超出范围用例执行失败
-充值金额超出范围用例执行失败
-充值金额超出范围用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额3位小数用例执行失败
-充值金额3位小数用例执行失败
-充值金额3位小数用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-充值金额为字符串格式用例执行失败
-充值金额为字符串格式用例执行失败
-充值金额为字符串格式用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
-用户名字字符串格式用例执行失败
-用户名字字符串格式用例执行失败
-用户名字字符串格式用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-登录成功用例执行通过
-登录成功用例执行通过
-登录成功用例执行通过
-登录成功用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-密码错误用例执行通过
-密码错误用例执行通过
-密码错误用例执行通过
-密码错误用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-账号错误用例执行失败
-账号错误用例执行失败
-账号错误用例执行失败
-账号错误用例执行失败
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-账号为空用例执行通过
-账号为空用例执行通过
-账号为空用例执行通过
-账号为空用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
-密码为空用例执行通过
-密码为空用例执行通过
-密码为空用例执行通过
-密码为空用例执行通过
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
-Starting new HTTP connection (1): api.lemonban.com:80
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -642,10 +306,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 正常注册(类型、注册名为空)用例通过
 正常注册(类型、注册名为空)用例通过
 正常注册(类型、注册名为空)用例通过
+正常注册(类型、注册名为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -654,10 +321,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 正常注册(类型为0、注册名为空)用例通过
 正常注册(类型为0、注册名为空)用例通过
 正常注册(类型为0、注册名为空)用例通过
+正常注册(类型为0、注册名为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -666,10 +336,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 正常注册(类型为空、注册名正常)用例不通过
 正常注册(类型为空、注册名正常)用例不通过
 正常注册(类型为空、注册名正常)用例不通过
+正常注册(类型为空、注册名正常)用例不通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -678,10 +351,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(类型格式异常、注册名为空)用例不通过
 注册失败(类型格式异常、注册名为空)用例不通过
 注册失败(类型格式异常、注册名为空)用例不通过
+注册失败(类型格式异常、注册名为空)用例不通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -690,10 +366,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(类型为空、注册名大于10位)用例通过
 注册失败(类型为空、注册名大于10位)用例通过
 注册失败(类型为空、注册名大于10位)用例通过
+注册失败(类型为空、注册名大于10位)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -702,10 +381,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号已被注册)用例不通过
 注册失败(手机号已被注册)用例不通过
 注册失败(手机号已被注册)用例不通过
+注册失败(手机号已被注册)用例不通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -714,10 +396,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号过长)用例通过
 注册失败(手机号过长)用例通过
 注册失败(手机号过长)用例通过
+注册失败(手机号过长)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -726,10 +411,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号过短)用例通过
 注册失败(手机号过短)用例通过
 注册失败(手机号过短)用例通过
+注册失败(手机号过短)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -738,10 +426,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号包含特殊字符)用例通过
 注册失败(手机号包含特殊字符)用例通过
 注册失败(手机号包含特殊字符)用例通过
+注册失败(手机号包含特殊字符)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -750,10 +441,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号为空)用例通过
 注册失败(手机号为空)用例通过
 注册失败(手机号为空)用例通过
+注册失败(手机号为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -762,10 +456,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(密码为空)用例通过
 注册失败(密码为空)用例通过
 注册失败(密码为空)用例通过
+注册失败(密码为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -774,10 +471,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(类型超出范围)用例通过
 注册失败(类型超出范围)用例通过
 注册失败(类型超出范围)用例通过
+注册失败(类型超出范围)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -786,6 +486,8 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(密码过长)用例通过
 注册失败(密码过长)用例通过
 注册失败(密码过长)用例通过
+注册失败(密码过长)用例通过
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -794,10 +496,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(密码过短)用例通过
 注册失败(密码过短)用例通过
 注册失败(密码过短)用例通过
 注册失败(密码过短)用例通过
+注册失败(密码过短)用例通过
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -806,10 +511,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -818,10 +526,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值成功用例执行通过
 充值成功用例执行通过
 充值成功用例执行通过
+充值成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -830,10 +541,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值0.01成功用例执行通过
 充值0.01成功用例执行通过
 充值0.01成功用例执行通过
+充值0.01成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -842,10 +556,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值500000成功用例执行通过
 充值500000成功用例执行通过
 充值500000成功用例执行通过
+充值500000成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -854,10 +571,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值0失败用例执行失败
 充值0失败用例执行失败
 充值0失败用例执行失败
+充值0失败用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -866,10 +586,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 用户id为空用例执行失败
 用户id为空用例执行失败
 用户id为空用例执行失败
+用户id为空用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -878,10 +601,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值金额为空用例执行失败
 充值金额为空用例执行失败
 充值金额为空用例执行失败
+充值金额为空用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -890,10 +616,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 用户id不存在用例执行通过
 用户id不存在用例执行通过
 用户id不存在用例执行通过
+用户id不存在用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -902,10 +631,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值金额为负值用例执行失败
 充值金额为负值用例执行失败
 充值金额为负值用例执行失败
+充值金额为负值用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -914,10 +646,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值金额超出范围用例执行失败
 充值金额超出范围用例执行失败
 充值金额超出范围用例执行失败
+充值金额超出范围用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -926,10 +661,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值金额3位小数用例执行失败
 充值金额3位小数用例执行失败
 充值金额3位小数用例执行失败
+充值金额3位小数用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -938,6 +676,8 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值金额为字符串格式用例执行失败
 充值金额为字符串格式用例执行失败
 充值金额为字符串格式用例执行失败
+充值金额为字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -946,10 +686,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
+用户名字字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -958,10 +701,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -970,10 +716,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现成功用例执行通过
 提现成功用例执行通过
 提现成功用例执行通过
+提现成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -982,10 +731,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现0.01成功用例执行通过
 提现0.01成功用例执行通过
 提现0.01成功用例执行通过
+提现0.01成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -994,10 +746,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现500000成功用例执行通过
 提现500000成功用例执行通过
 提现500000成功用例执行通过
+提现500000成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1006,10 +761,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现0失败用例执行失败
 提现0失败用例执行失败
 提现0失败用例执行失败
+提现0失败用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1018,10 +776,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 用户id为空用例执行失败
 用户id为空用例执行失败
 用户id为空用例执行失败
+用户id为空用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1030,10 +791,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现金额为空用例执行失败
 提现金额为空用例执行失败
 提现金额为空用例执行失败
+提现金额为空用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1042,10 +806,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 用户id不存在用例执行失败
 用户id不存在用例执行失败
 用户id不存在用例执行失败
+用户id不存在用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1054,10 +821,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现金额为负值用例执行失败
 提现金额为负值用例执行失败
 提现金额为负值用例执行失败
+提现金额为负值用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1066,10 +836,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现金额超出范围用例执行失败
 提现金额超出范围用例执行失败
 提现金额超出范围用例执行失败
+提现金额超出范围用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1078,10 +851,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现金额3位小数用例执行失败
 提现金额3位小数用例执行失败
 提现金额3位小数用例执行失败
+提现金额3位小数用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1090,6 +866,8 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现金额为字符串格式用例执行失败
 提现金额为字符串格式用例执行失败
 提现金额为字符串格式用例执行失败
+提现金额为字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -1098,6 +876,8 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
@@ -1106,6 +886,438 @@ Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，按月借款用例执行通过
+新增成功，按月借款用例执行通过
+新增成功，按月借款用例执行通过
+新增成功，按月借款用例执行通过
+新增成功，按月借款用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款1月用例执行通过
+新增成功，借款1月用例执行通过
+新增成功，借款1月用例执行通过
+新增成功，借款1月用例执行通过
+新增成功，借款1月用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款36月用例执行通过
+新增成功，借款36月用例执行通过
+新增成功，借款36月用例执行通过
+新增成功，借款36月用例执行通过
+新增成功，借款36月用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，按天借款用例执行通过
+新增成功，按天借款用例执行通过
+新增成功，按天借款用例执行通过
+新增成功，按天借款用例执行通过
+新增成功，按天借款用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款10天用例执行通过
+新增成功，借款10天用例执行通过
+新增成功，借款10天用例执行通过
+新增成功，借款10天用例执行通过
+新增成功，借款10天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款45天用例执行通过
+新增成功，借款45天用例执行通过
+新增成功，借款45天用例执行通过
+新增成功，借款45天用例执行通过
+新增成功，借款45天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，竞标1天用例执行通过
+新增成功，竞标1天用例执行通过
+新增成功，竞标1天用例执行通过
+新增成功，竞标1天用例执行通过
+新增成功，竞标1天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，竞标10天用例执行通过
+新增成功，竞标10天用例执行通过
+新增成功，竞标10天用例执行通过
+新增成功，竞标10天用例执行通过
+新增成功，竞标10天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，id为空用例执行通过
+新增失败，id为空用例执行通过
+新增失败，id为空用例执行通过
+新增失败，id为空用例执行通过
+新增失败，id为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，id错误用例执行失败
+新增失败，id错误用例执行失败
+新增失败，id错误用例执行失败
+新增失败，id错误用例执行失败
+新增失败，id错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，标题为空用例执行通过
+新增失败，标题为空用例执行通过
+新增失败，标题为空用例执行通过
+新增失败，标题为空用例执行通过
+新增失败，标题为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，标题格式错误用例执行失败
+新增失败，标题格式错误用例执行失败
+新增失败，标题格式错误用例执行失败
+新增失败，标题格式错误用例执行失败
+新增失败，标题格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款金额为空用例执行通过
+新增失败，借款金额为空用例执行通过
+新增失败，借款金额为空用例执行通过
+新增失败，借款金额为空用例执行通过
+新增失败，借款金额为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款金额为负用例执行通过
+新增失败，借款金额为负用例执行通过
+新增失败，借款金额为负用例执行通过
+新增失败，借款金额为负用例执行通过
+新增失败，借款金额为负用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款金额三位小数用例执行通过
+新增失败，借款金额三位小数用例执行通过
+新增失败，借款金额三位小数用例执行通过
+新增失败，借款金额三位小数用例执行通过
+新增失败，借款金额三位小数用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，年利率为空用例执行通过
+新增失败，年利率为空用例执行通过
+新增失败，年利率为空用例执行通过
+新增失败，年利率为空用例执行通过
+新增失败，年利率为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，年利率为负用例执行通过
+新增失败，年利率为负用例执行通过
+新增失败，年利率为负用例执行通过
+新增失败，年利率为负用例执行通过
+新增失败，年利率为负用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，年利率三位小数用例执行失败
+新增失败，年利率三位小数用例执行失败
+新增失败，年利率三位小数用例执行失败
+新增失败，年利率三位小数用例执行失败
+新增失败，年利率三位小数用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限为空用例执行通过
+新增失败，借款期限为空用例执行通过
+新增失败，借款期限为空用例执行通过
+新增失败，借款期限为空用例执行通过
+新增失败，借款期限为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，按月借款期限超出范围用例执行通过
+新增失败，按月借款期限超出范围用例执行通过
+新增失败，按月借款期限超出范围用例执行通过
+新增失败，按月借款期限超出范围用例执行通过
+新增失败，按月借款期限超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，按天借款期限超出范围用例执行通过
+新增失败，按天借款期限超出范围用例执行通过
+新增失败，按天借款期限超出范围用例执行通过
+新增失败，按天借款期限超出范围用例执行通过
+新增失败，按天借款期限超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限格式错误用例执行失败
+新增失败，借款期限格式错误用例执行失败
+新增失败，借款期限格式错误用例执行失败
+新增失败，借款期限格式错误用例执行失败
+新增失败，借款期限格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限类型为空用例执行通过
+新增失败，借款期限类型为空用例执行通过
+新增失败，借款期限类型为空用例执行通过
+新增失败，借款期限类型为空用例执行通过
+新增失败，借款期限类型为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限类型超出范围用例执行通过
+新增失败，借款期限类型超出范围用例执行通过
+新增失败，借款期限类型超出范围用例执行通过
+新增失败，借款期限类型超出范围用例执行通过
+新增失败，借款期限类型超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限类型格式错误用例执行失败
+新增失败，借款期限类型格式错误用例执行失败
+新增失败，借款期限类型格式错误用例执行失败
+新增失败，借款期限类型格式错误用例执行失败
+新增失败，借款期限类型格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，竞标天数为空用例执行通过
+新增失败，竞标天数为空用例执行通过
+新增失败，竞标天数为空用例执行通过
+新增失败，竞标天数为空用例执行通过
+新增失败，竞标天数为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，竞标天数超出范围用例执行通过
+新增失败，竞标天数超出范围用例执行通过
+新增失败，竞标天数超出范围用例执行通过
+新增失败，竞标天数超出范围用例执行通过
+新增失败，竞标天数超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，竞标天数格式错误用例执行失败
+新增失败，竞标天数格式错误用例执行失败
+新增失败，竞标天数格式错误用例执行失败
+新增失败，竞标天数格式错误用例执行失败
+新增失败，竞标天数格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
@@ -1114,10 +1326,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 登录成功用例执行通过
 登录成功用例执行通过
 登录成功用例执行通过
+登录成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
@@ -1126,10 +1341,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 密码错误用例执行通过
 密码错误用例执行通过
 密码错误用例执行通过
+密码错误用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
@@ -1138,10 +1356,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 账号错误用例执行失败
 账号错误用例执行失败
 账号错误用例执行失败
+账号错误用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
@@ -1150,10 +1371,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 账号为空用例执行通过
 账号为空用例执行通过
 账号为空用例执行通过
+账号为空用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
@@ -1162,10 +1386,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 密码为空用例执行通过
 密码为空用例执行通过
 密码为空用例执行通过
+密码为空用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1174,10 +1401,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 正常注册(类型、注册名为空)用例通过
 正常注册(类型、注册名为空)用例通过
 正常注册(类型、注册名为空)用例通过
+正常注册(类型、注册名为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1186,10 +1416,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 正常注册(类型为0、注册名为空)用例通过
 正常注册(类型为0、注册名为空)用例通过
 正常注册(类型为0、注册名为空)用例通过
+正常注册(类型为0、注册名为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1198,10 +1431,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 正常注册(类型为空、注册名正常)用例不通过
 正常注册(类型为空、注册名正常)用例不通过
 正常注册(类型为空、注册名正常)用例不通过
+正常注册(类型为空、注册名正常)用例不通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1210,10 +1446,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(类型格式异常、注册名为空)用例不通过
 注册失败(类型格式异常、注册名为空)用例不通过
 注册失败(类型格式异常、注册名为空)用例不通过
+注册失败(类型格式异常、注册名为空)用例不通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1222,10 +1461,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(类型为空、注册名大于10位)用例通过
 注册失败(类型为空、注册名大于10位)用例通过
 注册失败(类型为空、注册名大于10位)用例通过
+注册失败(类型为空、注册名大于10位)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1234,10 +1476,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号已被注册)用例不通过
 注册失败(手机号已被注册)用例不通过
 注册失败(手机号已被注册)用例不通过
+注册失败(手机号已被注册)用例不通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1246,10 +1491,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号过长)用例通过
 注册失败(手机号过长)用例通过
 注册失败(手机号过长)用例通过
+注册失败(手机号过长)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1258,10 +1506,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号过短)用例通过
 注册失败(手机号过短)用例通过
 注册失败(手机号过短)用例通过
+注册失败(手机号过短)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1270,10 +1521,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号包含特殊字符)用例通过
 注册失败(手机号包含特殊字符)用例通过
 注册失败(手机号包含特殊字符)用例通过
+注册失败(手机号包含特殊字符)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1282,10 +1536,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(手机号为空)用例通过
 注册失败(手机号为空)用例通过
 注册失败(手机号为空)用例通过
+注册失败(手机号为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1294,10 +1551,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(密码为空)用例通过
 注册失败(密码为空)用例通过
 注册失败(密码为空)用例通过
+注册失败(密码为空)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1306,10 +1566,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(类型超出范围)用例通过
 注册失败(类型超出范围)用例通过
 注册失败(类型超出范围)用例通过
+注册失败(类型超出范围)用例通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
@@ -1318,6 +1581,8 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(密码过长)用例通过
 注册失败(密码过长)用例通过
 注册失败(密码过长)用例通过
+注册失败(密码过长)用例通过
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -1326,10 +1591,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
 注册失败(密码过短)用例通过
 注册失败(密码过短)用例通过
 注册失败(密码过短)用例通过
 注册失败(密码过短)用例通过
+注册失败(密码过短)用例通过
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -1338,10 +1606,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -1350,10 +1621,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值成功用例执行通过
 充值成功用例执行通过
 充值成功用例执行通过
+充值成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -1362,10 +1636,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值0.01成功用例执行通过
 充值0.01成功用例执行通过
 充值0.01成功用例执行通过
+充值0.01成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -1374,10 +1651,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值500000成功用例执行通过
 充值500000成功用例执行通过
 充值500000成功用例执行通过
+充值500000成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -1386,6 +1666,8 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值0失败用例执行失败
 充值0失败用例执行失败
 充值0失败用例执行失败
+充值0失败用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -1394,6 +1676,8 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+用户id为空用例执行失败
 用户id为空用例执行失败
 用户id为空用例执行失败
 用户id为空用例执行失败
@@ -1402,6 +1686,8 @@ Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -1410,10 +1696,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值金额为空用例执行失败
 充值金额为空用例执行失败
 充值金额为空用例执行失败
+充值金额为空用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -1422,10 +1711,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 用户id不存在用例执行通过
 用户id不存在用例执行通过
 用户id不存在用例执行通过
+用户id不存在用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -1434,10 +1726,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值金额为负值用例执行失败
 充值金额为负值用例执行失败
 充值金额为负值用例执行失败
+充值金额为负值用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -1446,10 +1741,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值金额超出范围用例执行失败
 充值金额超出范围用例执行失败
 充值金额超出范围用例执行失败
+充值金额超出范围用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -1458,10 +1756,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值金额3位小数用例执行失败
 充值金额3位小数用例执行失败
 充值金额3位小数用例执行失败
+充值金额3位小数用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
@@ -1470,6 +1771,8 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 充值金额为字符串格式用例执行失败
 充值金额为字符串格式用例执行失败
 充值金额为字符串格式用例执行失败
+充值金额为字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -1478,10 +1781,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/recharge HTTP/1.1" 200 None
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
+用户名字字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -1490,10 +1796,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1502,10 +1811,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现成功用例执行通过
 提现成功用例执行通过
 提现成功用例执行通过
+提现成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1514,10 +1826,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现0.01成功用例执行通过
 提现0.01成功用例执行通过
 提现0.01成功用例执行通过
+提现0.01成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1526,10 +1841,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现500000成功用例执行通过
 提现500000成功用例执行通过
 提现500000成功用例执行通过
+提现500000成功用例执行通过
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1538,10 +1856,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现0失败用例执行失败
 提现0失败用例执行失败
 提现0失败用例执行失败
+提现0失败用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1550,10 +1871,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 用户id为空用例执行失败
 用户id为空用例执行失败
 用户id为空用例执行失败
+用户id为空用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1562,10 +1886,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现金额为空用例执行失败
 提现金额为空用例执行失败
 提现金额为空用例执行失败
+提现金额为空用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1574,10 +1901,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 用户id不存在用例执行失败
 用户id不存在用例执行失败
 用户id不存在用例执行失败
+用户id不存在用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1586,10 +1916,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现金额为负值用例执行失败
 提现金额为负值用例执行失败
 提现金额为负值用例执行失败
+提现金额为负值用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1598,10 +1931,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现金额超出范围用例执行失败
 提现金额超出范围用例执行失败
 提现金额超出范围用例执行失败
+提现金额超出范围用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1610,10 +1946,13 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现金额3位小数用例执行失败
 提现金额3位小数用例执行失败
 提现金额3位小数用例执行失败
+提现金额3位小数用例执行失败
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
@@ -1622,6 +1961,8 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 提现金额为字符串格式用例执行失败
 提现金额为字符串格式用例执行失败
 提现金额为字符串格式用例执行失败
+提现金额为字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
 Starting new HTTP connection (1): api.lemonban.com:80
@@ -1630,7 +1971,439 @@ http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/withdraw HTTP/1.1" 200 None
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
 用户名字字符串格式用例执行失败
+用户名字字符串格式用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，按月借款用例执行通过
+新增成功，按月借款用例执行通过
+新增成功，按月借款用例执行通过
+新增成功，按月借款用例执行通过
+新增成功，按月借款用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款1月用例执行通过
+新增成功，借款1月用例执行通过
+新增成功，借款1月用例执行通过
+新增成功，借款1月用例执行通过
+新增成功，借款1月用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款36月用例执行通过
+新增成功，借款36月用例执行通过
+新增成功，借款36月用例执行通过
+新增成功，借款36月用例执行通过
+新增成功，借款36月用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，按天借款用例执行通过
+新增成功，按天借款用例执行通过
+新增成功，按天借款用例执行通过
+新增成功，按天借款用例执行通过
+新增成功，按天借款用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款10天用例执行通过
+新增成功，借款10天用例执行通过
+新增成功，借款10天用例执行通过
+新增成功，借款10天用例执行通过
+新增成功，借款10天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，借款45天用例执行通过
+新增成功，借款45天用例执行通过
+新增成功，借款45天用例执行通过
+新增成功，借款45天用例执行通过
+新增成功，借款45天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，竞标1天用例执行通过
+新增成功，竞标1天用例执行通过
+新增成功，竞标1天用例执行通过
+新增成功，竞标1天用例执行通过
+新增成功，竞标1天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增成功，竞标10天用例执行通过
+新增成功，竞标10天用例执行通过
+新增成功，竞标10天用例执行通过
+新增成功，竞标10天用例执行通过
+新增成功，竞标10天用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，id为空用例执行通过
+新增失败，id为空用例执行通过
+新增失败，id为空用例执行通过
+新增失败，id为空用例执行通过
+新增失败，id为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，id错误用例执行失败
+新增失败，id错误用例执行失败
+新增失败，id错误用例执行失败
+新增失败，id错误用例执行失败
+新增失败，id错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，标题为空用例执行通过
+新增失败，标题为空用例执行通过
+新增失败，标题为空用例执行通过
+新增失败，标题为空用例执行通过
+新增失败，标题为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，标题格式错误用例执行失败
+新增失败，标题格式错误用例执行失败
+新增失败，标题格式错误用例执行失败
+新增失败，标题格式错误用例执行失败
+新增失败，标题格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款金额为空用例执行通过
+新增失败，借款金额为空用例执行通过
+新增失败，借款金额为空用例执行通过
+新增失败，借款金额为空用例执行通过
+新增失败，借款金额为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款金额为负用例执行通过
+新增失败，借款金额为负用例执行通过
+新增失败，借款金额为负用例执行通过
+新增失败，借款金额为负用例执行通过
+新增失败，借款金额为负用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款金额三位小数用例执行通过
+新增失败，借款金额三位小数用例执行通过
+新增失败，借款金额三位小数用例执行通过
+新增失败，借款金额三位小数用例执行通过
+新增失败，借款金额三位小数用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，年利率为空用例执行通过
+新增失败，年利率为空用例执行通过
+新增失败，年利率为空用例执行通过
+新增失败，年利率为空用例执行通过
+新增失败，年利率为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，年利率为负用例执行通过
+新增失败，年利率为负用例执行通过
+新增失败，年利率为负用例执行通过
+新增失败，年利率为负用例执行通过
+新增失败，年利率为负用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，年利率三位小数用例执行失败
+新增失败，年利率三位小数用例执行失败
+新增失败，年利率三位小数用例执行失败
+新增失败，年利率三位小数用例执行失败
+新增失败，年利率三位小数用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限为空用例执行通过
+新增失败，借款期限为空用例执行通过
+新增失败，借款期限为空用例执行通过
+新增失败，借款期限为空用例执行通过
+新增失败，借款期限为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，按月借款期限超出范围用例执行通过
+新增失败，按月借款期限超出范围用例执行通过
+新增失败，按月借款期限超出范围用例执行通过
+新增失败，按月借款期限超出范围用例执行通过
+新增失败，按月借款期限超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，按天借款期限超出范围用例执行通过
+新增失败，按天借款期限超出范围用例执行通过
+新增失败，按天借款期限超出范围用例执行通过
+新增失败，按天借款期限超出范围用例执行通过
+新增失败，按天借款期限超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限格式错误用例执行失败
+新增失败，借款期限格式错误用例执行失败
+新增失败，借款期限格式错误用例执行失败
+新增失败，借款期限格式错误用例执行失败
+新增失败，借款期限格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限类型为空用例执行通过
+新增失败，借款期限类型为空用例执行通过
+新增失败，借款期限类型为空用例执行通过
+新增失败，借款期限类型为空用例执行通过
+新增失败，借款期限类型为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限类型超出范围用例执行通过
+新增失败，借款期限类型超出范围用例执行通过
+新增失败，借款期限类型超出范围用例执行通过
+新增失败，借款期限类型超出范围用例执行通过
+新增失败，借款期限类型超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，借款期限类型格式错误用例执行失败
+新增失败，借款期限类型格式错误用例执行失败
+新增失败，借款期限类型格式错误用例执行失败
+新增失败，借款期限类型格式错误用例执行失败
+新增失败，借款期限类型格式错误用例执行失败
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，竞标天数为空用例执行通过
+新增失败，竞标天数为空用例执行通过
+新增失败，竞标天数为空用例执行通过
+新增失败，竞标天数为空用例执行通过
+新增失败，竞标天数为空用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，竞标天数超出范围用例执行通过
+新增失败，竞标天数超出范围用例执行通过
+新增失败，竞标天数超出范围用例执行通过
+新增失败，竞标天数超出范围用例执行通过
+新增失败，竞标天数超出范围用例执行通过
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+Starting new HTTP connection (1): api.lemonban.com:80
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+新增失败，竞标天数格式错误用例执行失败
+新增失败，竞标天数格式错误用例执行失败
+新增失败，竞标天数格式错误用例执行失败
+新增失败，竞标天数格式错误用例执行失败
+新增失败，竞标天数格式错误用例执行失败
