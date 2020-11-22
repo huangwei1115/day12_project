@@ -13,12 +13,12 @@ def random_phone():
         if not db.find_data("select * from futureloan.member where mobile_phone={}".format(phone)):
             return phone
 
-def init_env_data(user_conf,pwd_conf,type):
+def register(user_conf,pwd_conf,type):
     """
 
-    :param user_conf:
-    :param pwd_conf:
-    :param type:
+    :param user_conf:保存到配置文件的配置项的用户名称
+    :param pwd_conf:保存到配置文件的配置项的密码名称
+    :param type:注册用户的类型，0：管理员  默认1：普通用户
     :return:
     """
     #第一步，普通账号注册账户
@@ -26,15 +26,16 @@ def init_env_data(user_conf,pwd_conf,type):
     headers=conf.get("api","headers")
     params={
         "mobile_phone":random_phone(),
-        "pwd":user_conf,
+        "pwd":11111111,
         "type":type
     }
     response=requests.post(url=register_url,json=params,headers=headers)
     res=response.json()
     if res["code"]==0:
         print("==============初始化注册成功===============")
-        conf.write(section="testdata",option="mobile_phone",value=params["mobile_phone"])
-        conf.write(section="testdata",option="pwd",value=pwd_conf)
+        conf.write(section="testdata",option=user_conf,value=params["mobile_phone"])
+        conf.write(section="testdata",option=pwd_conf,value=pwd_conf)
+def login():
         #第二步登录并充值
         login_url=conf.get("api","baseUrl")+"/member/login"
         login_params={

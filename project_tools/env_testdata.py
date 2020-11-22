@@ -44,7 +44,7 @@ def init_env_data():
             headers["Authorization"]=token
             recharge_params={
                 "member_id":member_id,
-                "amount":50000
+                "amount":500000
             }
             response=requests.post(url=recharge_url,json=recharge_params,headers=headers)
             print(response.json())
@@ -59,6 +59,68 @@ def init_env_data():
             raise ValueError("普通账号初始化登录异常")
     else:
         raise ValueError("普通账号初始化注册异常")
+#管理员账号注册账户
+    register_url=conf.get("api","baseUrl")+"/member/register"
+    headers=eval(conf.get("api","headers"))
+    admin_params={
+        "mobile_phone":random_phone(),
+        "pwd":111111111,
+        "type":0
+    }
+    response=requests.post(url=register_url,json=admin_params,headers=headers)
+    res=response.json()
+    if res["code"]==0:
+        print("==============初始化管理员账号注册成功===============")
+        conf.write_data(section="testdata",option="admin_mobile",value=admin_params["mobile_phone"])
+        conf.write_data(section="testdata",option="admin_pwd",value=str(params["pwd"]))
+    else:
+        raise ValueError("管理员账号初始化注册异常")
+#投资账号注册账户
+    register_url=conf.get("api","baseUrl")+"/member/register"
+    headers=eval(conf.get("api","headers"))
+    params={
+        "mobile_phone":random_phone(),
+        "pwd":111111111,
+        "type":0
+    }
+    response=requests.post(url=register_url,json=params,headers=headers)
+    res=response.json()
+    if res["code"]==0:
+        print("==============初始化投资账户注册成功===============")
+        conf.write_data(section="testdata",option="invest_mobile",value=params["mobile_phone"])
+        conf.write_data(section="testdata",option="invest_pwd",value=str(params["pwd"]))
+        #第二步登录并充值
+        login_url=conf.get("api","baseUrl")+"/member/login"
+        login_params={
+            "mobile_phone":conf.get("testdata","invest_mobile"),
+            "pwd":conf.get("testdata","pwd")
+        }
+        response=requests.post(url=login_url,json=login_params,headers=headers)
+        if response.json()["code"]==0:
+            print("登录初始成功")
+            token="Bearer"+" "+jsonpath.jsonpath(response.json(),"$..token")[0]
+            member_id=jsonpath.jsonpath(response.json(),"$..id")[0]
+            #充值500000
+            recharge_url=conf.get("api","baseUrl")+"/member/recharge"
+            headers["Authorization"]=token
+            recharge_params={
+                "member_id":member_id,
+                "amount":500000
+            }
+            response=requests.post(url=recharge_url,json=recharge_params,headers=headers)
+            print(response.json())
+            if response.json()["code"]==0:
+                print("==================投资账户充值500000成功==================")
+                sql = "SELECT * FROM futureloan.member WHERE id={}"
+                leave_amount = db.find_data(sql.format(member_id))[0]["leave_amount"]
+                print("用户当前余额为{}".format(leave_amount))
+            else:
+                raise ValueError("投资用户初始化充值失败")
+        else:
+            raise ValueError("投资账号初始化登录异常")
+    else:
+        raise ValueError("投资账号初始化注册异常")
+
 if __name__=="__main__":
     init_env_data()
 
